@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Food.delete_all
+
+Food.create!(name: "apples", description: "the best food ever")
+Food.create!(name: "vegemite", description: "the worst food ever")
