@@ -11,3 +11,4 @@ Food.delete_all
 Food.create!(name: "apples", description: "the best food ever")
 Food.create!(name: "vegemite", description: "the worst food ever")
 Food.create!(name: "strawberries", description: "pretty damned good")
+Food.create!(name: "oranges", description: "awesome, of course")
